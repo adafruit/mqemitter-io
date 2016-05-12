@@ -1,8 +1,8 @@
 {
-  "name": "mqemitter-redis",
-  "version": "2.0.0",
-  "description": "Redis-based MQEmitter",
-  "main": "mqemitter-redis.js",
+  "name": "mqemitter-io",
+  "version": "1.0.0",
+  "description": "MQEmitter for Adafruit IO",
+  "main": "mqemitter-io.js",
   "dependencies": {
     "inherits": "^2.0.1",
     "ioredis": "^1.13.2",
@@ -14,19 +14,18 @@
   "devDependencies": {
     "faucet": "^0.0.1",
     "pre-commit": "^1.0.7",
-    "standard": "^6.0.0",
     "tape": "^4.0.0"
   },
   "optionalDependencies": {
     "hiredis": "^0.4.1"
   },
   "scripts": {
-    "test": "standard && tape test.js | faucet"
+    "test": "tape test.js | faucet"
   },
   "pre-commit": "test",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcollina/mqemitter-redis.git"
+    "url": "https://github.com/adafruit/mqemitter-io.git"
   },
   "keywords": [
     "redis",
@@ -36,10 +35,10 @@
     "publish",
     "subscribe"
   ],
-  "author": "Matteo Collina <hello@matteocollina.com>",
+  "author": "Todd Treece<todd@uniontownlabs.org",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mcollina/mqemitter-redis/issues"
+    "url": "https://github.com/adafruit/mqemitter-io"
   },
-  "homepage": "https://github.com/mcollina/mqemitter-redis"
+  "homepage": "https://github.com/adafruit/mqemitter-io"
 }
